@@ -1,0 +1,36 @@
+# DJANGO COMMANDS
+python -m pip install --upgrade pip #Pip upgrade
+# Once upgraded, install virtualenv using pip3:
+python -m venv venv # Create virtual environment
+source venv/bin/activate  #for mac users
+source venv/Scripts/activate  #for windows users
+
+python manage.py rename current_project_name new_project_name
+python manage.py rename demo ecommerce
+python manage.py runserver
+python manage.py makemigrations
+python manage.py migrate
+
+ls base
+pip install -r requirements.txt #Install all pkg in requirements.txt
+pip freeze > requirements.txt # move pkg to requirements.txt
+pip install # Install all pkgs
+pip cache purge # clear pip cache
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver #To run server
+python manage.py createsuperuser #To create admin user
+python manage.py collectstatic # Collects and prepares static files for production deployment.
+python manage.py test # To test project
+python manage.py check
+python manage.py reset_db  # To erase all data in your database
+
+username: spirit
+email: spirit@admin.com
+password: spirit
+
+To add emojis inside VS Code on Windows, you can follow these steps:
+Position the cursor where you want to add the emoji.
+Press the "Windows" key and the "." (period) key at the same time to open the emoji panel.
+Find the emoji you want to insert and click on it to add it to your code.
+
